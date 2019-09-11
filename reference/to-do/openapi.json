@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/todo": {
+    "/todo/{type}": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
@@ -27,7 +27,18 @@
           }
         },
         "description": ""
-      }
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string"
+          },
+          "name": "type",
+          "in": "path",
+          "required": true,
+          "description": ""
+        }
+      ]
     }
   }
 }
