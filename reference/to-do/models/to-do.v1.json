@@ -1,0 +1,16 @@
+{
+  "title": "to-do",
+  "type": "object",
+  "x-examples": {},
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "./to-do-item.v1.json"
+      }
+    }
+  }
+}

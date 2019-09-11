@@ -6,5 +6,6 @@
       "type": "string"
     }
   },
-  "x-examples": {}
+  "x-examples": {},
+  "description": ""
 }
