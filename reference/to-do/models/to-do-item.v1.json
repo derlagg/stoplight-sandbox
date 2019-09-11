@@ -1,0 +1,10 @@
+{
+  "title": "to-do-item",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "x-examples": {}
+}
