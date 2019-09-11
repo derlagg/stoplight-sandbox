@@ -9,5 +9,25 @@
       "url": "http://localhost:3000"
     }
   ],
-  "paths": {}
+  "paths": {
+    "/todo": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "./models/to-do.v1.json"
+                }
+              }
+            }
+          }
+        },
+        "description": ""
+      }
+    }
+  }
 }
